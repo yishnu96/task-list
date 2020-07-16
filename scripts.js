@@ -10,7 +10,7 @@ const TodoList = (function () {
 
     li.innerHTML = `<input type="checkbox" id="${task.id}" ${task.done ? 'checked' : ''} class="custom-checkbox">
                     <label for="${task.id}">${task.text}</label>
-                    <img src="bin.png" class="delete" data-id="${task.id}"/>
+                    <img src="red-cross-png-red-cross-png-file-2000.png" class="delete" data-id="${task.id}"/>
                     `;
     tasksList.appendChild(li);
   }
